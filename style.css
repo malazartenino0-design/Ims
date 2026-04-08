@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background: linear-gradient(to bottom right, #a8e6cf, #56ab2f);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+
+.img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 50% rgba(0, 0, 0, 0.15);
+  margin: 30px auto 10px;
+  display: block;
+
+}
+
+
+form {
+ background: #ffffff;
+  margin: 10px auto;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+input, button {
+  display: block;
+  width: 90%;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

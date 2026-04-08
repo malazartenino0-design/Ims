@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Add Equipment</title>
+  <link rel="stylesheet" href="invetory.css" />
+  <link rel="stylesheet" href="invbentory.php" />
+  <link rel="stylesheet" href="logout.php" />
+  
+</head>
+<body>
+
+  <div class="container">
+    <!-- Logos side-by-side -->
+    <div class="logo-row">
+      <img src="CSHSB_Logo.jpg" alt="CSHSB Logo" class="logo" />
+      <img src="rhynz.png" alt="rhynz.png" class="img" />
+    </div>
+
+    <!-- Inventory Form -->
+    <form action="invbentory.php" method="POST">
+      <h2>Add Equipment to Inventory</h2>
+
+      <input type="text" name="bearer" placeholder="Name of Bearer" required />
+      <input type="text" name="equipment" placeholder="Equipment Name" required />
+      <input type="text" name="specs" placeholder="Specifications" required />
+      <input type="date" name="date" required />
+
+      <button type="submit">Add Equipment</button>
+
+      <a href="logout.php" class="logout-btn">Logout</a>
+    </form>
+  </div>
+
+</body>
+</html>
+<script src="script.js"></script>

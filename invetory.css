@@ -1,0 +1,103 @@
+/* General Reset and Font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #a8e6cf, #56ab2f);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Center container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 450px;
+}
+
+/* Logo Styling */
+.logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+  background: #ffffff;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* This was missing */
+}
+
+/* Heading */
+form h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #388e3c;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  border: 4px solid #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+
+input:focus,
+textarea:focus {
+  border-color: #388e3c;
+  outline: none;
+  box-shadow: 0 0 6px rgba(56, 142, 60, 0.2);
+}
+
+/* Submit Button */
+button[type="submit"] {
+  background: #388e3c;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+button[type="submit"]:hover {
+  background: #2e7d32;
+}
+
+/* Logout Button */
+.logout-btn {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #388e3c;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.logout-btn:hover {
+  color: #2e7d32;
+  text-decoration: underline;
+}
